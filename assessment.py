@@ -137,7 +137,7 @@ class Quiz(Exam):
             return "Fail"
 
 def take_test(exam_instance, student_instance):
-    "Takes an exam and student as parameters, administers the exam and returns the student's score"""
+    """Takes in exam and student as parameters, administers exam and returns student's score"""
 
     exam_given = Exam.administer(exam_instance)
     return exam_given
